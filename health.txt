@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titleName">Easy steps to a Healthier Lifestyle </h1>
+    <img id="health1" src="https://tse1.mm.bing.net/th?id=OIP.pTkmYCzbXSL9LOrhiMrzlgHaKf&pid=Api&P=0" alt="" width=160px; height=300px>
+    <h1 id="healthDescription1">Eat more fruits and veggies</h1>
+    <p id="healthParagraph1"> Eat healthy foods.Loads of healthy foods, all combined in one compact, delicious dish. Pile 'em high with healthy veggies, kimchi, whole grains, fresh greens, noodles, fresh herbs, and if you like, plop an egg on top!Healthy food refers to food that contains the right amount of nutrients to keep our body fit. We need healthy food to keep ourselves fit. Furthermore, healthy food is also very delicious as opposed to popular thinking. Nowadays, kids need to eat healthy food more than ever.</p>
+    <h1 id="healthDescription2">Excerise</h1>
+    <p id="healthParagraph2">Exercise is important for your overall stamina improvement. If you think you get tired very easily, exercise can help improve your physical strength and increase your energy level. Importance of exercise cannot be ignored at any point of time. We need exercise to maintain our physical fitness and improve mental clarity.</p>
+    <img src="https://www.hypervibe.com/us/wp-content/uploads/sites/4/2016/06/posture-correction-exercises.jpg" id="health2" alt="" width=450px; height=400px>
+    <h1 id="healthDescription3">Emotional health</h1>
+    <img id="health3" src="https://i.ebayimg.com/images/g/6skAAOSw-~teN0fp/s-l640.jpg" alt="" width=350px; height=350px>
+    <p id="healthParagraph3">Yoga is a form of exercise that originated in ancient India. Many people have practiced it for thousands of years. The act of yoga consists of many poses known as ‘Asana’ that have different physical benefits. It is said that if a person practices yoga, he or she will become healthier. Therefore, many countries have adopted yoga as a form of exercise.</p>
+    <h1 id="healthDescription4">Drink water</h1>
+    <img id="health4" src="https://tse4.mm.bing.net/th?id=OIP.FxkbAPfH8yXCk4WNLc1MfAHaEK&pid=Api&P=0" alt="" width=350px; height=350px>
+    <p id="healthParagraph4">Water is made up of hydrogen and oxygen, and it exists in gaseous, liquid, and solid states. Water is one of the most plentiful and essential compounds, occurring as a liquid on Earth’s surface under normal conditions, which makes it invaluable for human uses and as plant and animal habitat. Since water is readily changed to a vapour (gas), it can travel through the atmosphere from the oceans inland, where it condenses and nourishes life.</p>
+    <h1 id="healthDescription5">Have a cup of green tea</h1>
+    <img id="health5" src="https://tse4.mm.bing.net/th?id=OIP.8ue1fwRW_rXe6DwiYDbnogHaE5&pid=Api&P=0" alt=""width=350px; height=350px>
+    <p id="healthParagraph5">Green tea is loaded with nutrients and plant compounds that can have positive health effects.This includes potent antioxidants called catechins, which may help protect against cancer.In fact, multiple studies show that people who drink green tea are significantly less likely to get many types of cancer, compared to those who don’t drink it</p>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: lavender;
+}
+#titleName{
+    width: 100%;
+    text-align: center;
+}
+#health1{
+    position: absolute;
+    width: 30%;
+    top:60%
+    margin-top: 20%;
+}
+#healthDescription1{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+    }
+#healthParagraph1{
+position: absolute;
+  top: 50%;
+  left:40%;
+  
+    
+}
+#healthDescription2{
+    position:relative;
+    top:90%;
+    left:20%;
+}
+#healthParagraph2{
+    position:absolute;
+    bottom:30%
+    left:0%;
+  
+}
+#health2{
+    position: relative;
+    width: 30%;
+    top:20%;
+    left:600%;
+    margin-bottom: 50%;
+}
+#health3{
+   width: 40%;
+   position: relative;
+   left:400%
+   margin-bottom: 50%;
+}
+#healthDescription3{
+    position:relative;
+    top:0%;
+    left:60%
+}
+#healthParagraph3{
+    position:relative;
+    top:0%;
+    left:40%; 
+}
